@@ -193,9 +193,11 @@ h6 {
   }
   
   
+  
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -859,6 +861,7 @@ figure.workcover2.hover figcaption {
         margin: auto;
 
     }
+
 }
 
 @media only screen and (max-width: 600px) {
