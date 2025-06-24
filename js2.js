@@ -63,7 +63,6 @@ addEventOnElem(window, "scroll", scrollReveal);
     }
   }
 
-
   
   /**
    * Easy event listener function

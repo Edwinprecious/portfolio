@@ -607,6 +607,11 @@ figure.workcover.hover figcaption {
 }
 
 @media screen and (max-width:600px) {
+
+  .site-menu li {
+    display: flex !important;
+  }
+
     figure.workcover {
 
         min-width: 220px;
@@ -619,6 +624,12 @@ figure.workcover.hover figcaption {
 }
 
 @media screen and (max-width:575px) {
+
+  
+  .site-menu li {
+    display: flex !important;
+  }
+
     figure.workcover {
         margin: .6rem auto;
 
@@ -874,6 +885,37 @@ figure.workcover2.hover figcaption {
     .modal {
         margin-left: -3.1rem;
     }
+}
+
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: #149ddd;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active #header {
+  left: 0;
 }
 
 /* ======================END OF WORKS=================== */
